@@ -103,10 +103,10 @@ body {
     background-color: #DA0037;
     border: none;
     border-radius: 50px;
-    font-size: 14px;
     color: white;
     font-weight: bold;
 }
+
 
 .header .image {
     width: 50%;
@@ -122,8 +122,22 @@ body {
 .header .image img {
     width: 80%;
     height: 80%;
+    transition: transform .5s; 
 }
-
+.header .image img:hover {
+    transform: scale(1.1);
+}
+.header button .animation {
+    animation: scrollRight 0.3s alternate ease infinite;
+  }
+  @keyframes scrollRight {
+   from{
+       transform: translateX(3px);
+   }
+   to{
+    transform: translateX(-1px);
+   }
+  }
 @media only screen and (max-width: 600px) {
     .header {
         height: 450px;
