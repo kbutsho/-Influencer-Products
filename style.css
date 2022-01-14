@@ -8,31 +8,38 @@ body {
     margin: 0 auto;
     font-family: 'Poppins', sans-serif;
 }
+
+/* navBar Start */
 .navBar {
     padding: 60px 0;
     display: flex;
 }
+
 .navBar .icon {
     display: flex;
     justify-content: center;
     align-items: center;
-   
+
 }
+
 .navBar .icon .menuIcon {
     display: none;
 }
+
 .navBar .menu {
     margin-left: auto;
-   
 }
+
 .navBar .menu ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-.navBar .menu li  {
+
+.navBar .menu li {
     display: inline;
 }
+
 .navBar .menu li a {
     text-decoration: none;
     color: black;
@@ -40,24 +47,97 @@ body {
     padding: 0 15px;
 }
 
-@media only screen and (max-width: 992px) {
-    
-}
+@media only screen and (max-width: 992px) {}
+
 @media only screen and (max-width: 600px) {
-    body{
+    body {
         width: 90%;
     }
+
     .navBar .menu ul .link {
         display: none;
     }
+
     .navBar .icon .menuIcon {
         display: block;
-        margin-right: 30px;
+        margin-right: 35px;
     }
+
     .navBar .menu li a i {
         margin-top: 5px;
     }
+
     .navBar .menu li a {
-        padding: 0;   
+        padding: 0;
     }
 }
+
+/* navBar end */
+
+/* header area start */
+
+.header {
+    height: 450px;
+    display: flex;
+}
+
+.header .content {
+    width: 50%;
+    margin: auto 0;
+}
+
+.header .content h1 {
+    font-size: 40px;
+    color: #261C2C;
+}
+
+.header .content p {
+    font-weight: bold;
+    color: #261C2C;
+
+    margin: 20px 0;
+}
+
+.header .content button {
+    padding: 12px 30px;
+    background-color: #DA0037;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+.header .image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/Circle design.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+.header .image img {
+    width: 80%;
+    height: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        height: 450px;
+        display: inline;
+    }
+
+    .header .content {
+        width: 100%;
+        text-align: center;
+        margin: 0 0 40px 0;
+    }
+
+    .header .image {
+        width: 100%;
+    }
+}
+/* header area end */
