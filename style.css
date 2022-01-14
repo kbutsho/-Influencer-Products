@@ -138,6 +138,7 @@ body {
 
     .header .image {
         width: 100%;
+        background-size: 70%;
     }
 }
 /* header area end */
