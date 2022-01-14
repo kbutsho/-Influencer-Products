@@ -8,39 +8,31 @@ body {
     margin: 0 auto;
     font-family: 'Poppins', sans-serif;
 }
-
 .navBar {
     padding: 60px 0;
     display: flex;
 }
-
 .navBar .icon {
     display: flex;
     justify-content: center;
     align-items: center;
    
 }
-
 .navBar .icon .menuIcon {
     display: none;
 }
-
 .navBar .menu {
     margin-left: auto;
-    display: flex;
-    align-items: center;
+   
 }
-
 .navBar .menu ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-
 .navBar .menu li  {
     display: inline;
 }
-
 .navBar .menu li a {
     text-decoration: none;
     color: black;
@@ -64,5 +56,8 @@ body {
     }
     .navBar .menu li a i {
         margin-top: 5px;
+    }
+    .navBar .menu li a {
+        padding: 0;   
     }
 }
