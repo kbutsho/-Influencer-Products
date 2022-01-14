@@ -52,6 +52,9 @@ body {
     
 }
 @media only screen and (max-width: 600px) {
+    body{
+        width: 90%;
+    }
     .navBar .menu ul .link {
         display: none;
     }
