@@ -60,13 +60,12 @@ body {
 
     .navBar .icon .menuIcon {
         display: block;
-        margin-right: 35px;
+        margin-right: 30px;
     }
 
     .navBar .menu li a i {
         margin-top: 5px;
     }
-
     .navBar .menu li a {
         padding: 0;
     }
@@ -94,7 +93,6 @@ body {
 .header .content p {
     font-weight: bold;
     color: #261C2C;
-
     margin: 20px 0;
 }
 
@@ -122,22 +120,27 @@ body {
 .header .image img {
     width: 80%;
     height: 80%;
-    transition: transform .5s; 
+    transition: transform .5s;
 }
+
 .header .image img:hover {
     transform: scale(1.1);
 }
+
 .header button .animation {
     animation: scrollRight 0.3s alternate ease infinite;
-  }
-  @keyframes scrollRight {
-   from{
-       transform: translateX(3px);
-   }
-   to{
-    transform: translateX(-1px);
-   }
-  }
+}
+
+@keyframes scrollRight {
+    from {
+        transform: translateX(3px);
+    }
+
+    to {
+        transform: translateX(-1px);
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .header {
         height: 450px;
@@ -155,4 +158,25 @@ body {
         background-size: 75%;
     }
 }
+
 /* header area end */
+.brand-area{
+    margin: 30px 0;
+
+}
+.brand-area .logo {
+   display: flex;
+   margin: 30px 0;
+}
+.brand-area  img{
+    margin: 0 auto;
+}
+@media only screen and (max-width: 600px) {
+    .brand-area .logo {
+        display: flex;
+        margin: 20px 0;
+     }
+    .brand-area  img{
+        width: 10%;
+    }
+}
