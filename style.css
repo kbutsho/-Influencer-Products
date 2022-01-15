@@ -6,9 +6,11 @@
 .container {
     width: 80%;
     margin: 0 auto;
+    
+}
+body{
     font-family: 'Poppins', sans-serif;
 }
-
 /* navBar Start */
 .navBar {
     padding: 60px 0;
@@ -359,10 +361,16 @@ button {
 .contact .box{
     margin: 0 20px;
 }
+.contact .box p{
+    font-weight: bold;
+    color: #261C2C;
+    margin: 10px 0;
+    font-size: 14px;  
+}
 input{
     padding:10px 40px;
     border-radius: 10px;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 @media only screen and (max-width: 600px) {
     .contact{
@@ -382,3 +390,28 @@ input{
 }
 
 /* contact area end */
+
+/* footer area start */
+footer{
+    background-color: #0c073f;
+    text-align: center;
+    color: white;
+    padding: 40px 0;
+}
+footer h4{
+    font-size: 14px;
+}
+footer p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #afabb1;
+}
+footer i{
+    font-size: 16px;
+    color: white;
+    margin: 15px 5px;
+    border-radius: 50px;
+    background-color: rgba(128, 128, 128, 0.404);
+    padding: 5px;
+}
+/* footer area end */
