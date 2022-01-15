@@ -220,7 +220,6 @@ button {
 .img{
     display: flex;
     justify-content: center;
-    background-color: aquamarine;
 }
 .popular-collection .grid-item .box img {
     width: 280px;
