@@ -247,7 +247,16 @@ button {
     font-weight: bold;
 
 }
+@media only screen and (max-width: 992px) {
+    .popular-collection .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
 
+    h2 {
+        font-size: 20px;
+    }
+}
 @media only screen and (max-width: 600px) {
 
     .popular-collection .grid-container {
@@ -261,16 +270,7 @@ button {
     }
 }
 
-@media only screen and (max-width: 992px) {
-    .popular-collection .grid-container {
-        display: grid;
-        grid-template-columns: auto auto;
-    }
 
-    h2 {
-        font-size: 20px;
-    }
-}
 
 /* popular collection area end */
 
