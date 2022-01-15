@@ -6,11 +6,13 @@
 .container {
     width: 80%;
     margin: 0 auto;
-    
+
 }
-body{
+
+body {
     font-family: 'Poppins', sans-serif;
 }
+
 /* navBar Start */
 .navBar {
     padding: 60px 0;
@@ -215,7 +217,11 @@ button {
     border-radius: 7px;
 
 }
-
+.img{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+}
 .popular-collection .grid-item .box img {
     width: 280px;
     transition: transform .5s;
@@ -249,6 +255,7 @@ button {
     font-weight: bold;
 
 }
+
 @media only screen and (max-width: 992px) {
     .popular-collection .grid-container {
         display: grid;
@@ -259,6 +266,7 @@ button {
         font-size: 20px;
     }
 }
+
 @media only screen and (max-width: 600px) {
 
     .popular-collection .grid-container {
@@ -335,20 +343,23 @@ button {
         font-size: 12px;
     }
 }
+
 /* Feature product area end */
 
 /* contact area start */
 
-.contact{
+.contact {
     display: flex;
     margin: 30px 0;
 }
-.contact .address{
+
+.contact .address {
     width: 60%;
     display: flex;
     margin: auto 0;
 }
-.contact .message{
+
+.contact .message {
     width: 40%;
     background-color: aqua;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
@@ -358,55 +369,63 @@ button {
     padding: 20px;
     border-radius: 10px;
 }
-.contact .box{
+
+.contact .box {
     margin: 0 20px;
 }
-.contact .box p{
+
+.contact .box p {
     font-weight: bold;
     color: #261C2C;
     margin: 10px 0;
-    font-size: 14px;  
+    font-size: 14px;
 }
-input{
-    padding:10px 40px;
+
+input {
+    padding: 10px 40px;
     border-radius: 10px;
     margin: 5px 0;
 }
+
 @media only screen and (max-width: 600px) {
-    .contact{
+    .contact {
         display: inline;
         margin: 60px 0;
     }
-    .contact .address{
+
+    .contact .address {
         width: 100%;
         display: inline;
-      
     }
-    .contact .message{
+
+    .contact .message {
         width: 90%;
-       padding: 0 auto;
-       margin: 20px 0;
+        padding: 0 auto;
+        margin: 20px 0;
     }
 }
 
 /* contact area end */
 
 /* footer area start */
-footer{
+footer {
     background-color: #0c073f;
     text-align: center;
     color: white;
     padding: 40px 0;
 }
-footer h4{
+
+footer h4 {
     font-size: 14px;
 }
-footer p{
+
+footer p {
     font-size: 14px;
     font-weight: bold;
     color: #afabb1;
 }
-footer i{
+
+footer i {
     font-size: 16px;
     color: white;
     margin: 15px 5px;
@@ -414,4 +433,5 @@ footer i{
     background-color: rgba(128, 128, 128, 0.404);
     padding: 5px;
 }
+
 /* footer area end */
